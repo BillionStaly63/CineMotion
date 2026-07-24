@@ -1,0 +1,66 @@
+CINEMOTION STUDIO — COMO ABRIR NO VISUAL STUDIO CODE
+
+Este projeto usa:
+- React + TypeScript (arquivo .tsx)
+- CSS
+- JavaScript gerado automaticamente
+- Vite/Vinext para abrir o site
+
+IMPORTANTE
+Este site não usa o botão "Go Live" do Live Server.
+Você vai abri-lo usando o terminal do Visual Studio Code.
+
+PASSO A PASSO
+
+1. Extraia a pasta do arquivo ZIP.
+
+2. Instale o Node.js no computador, caso ainda não tenha:
+   https://nodejs.org/
+   Escolha a versão LTS.
+
+3. Abra o Visual Studio Code.
+
+4. Clique em:
+   Arquivo > Abrir Pasta
+
+5. Selecione a pasta:
+   cinemotion-studio-vscode
+
+6. No Visual Studio Code, clique em:
+   Terminal > Novo Terminal
+
+7. Digite este comando e aperte Enter:
+   npm install
+
+8. Quando terminar, digite:
+   npm run dev
+
+9. O terminal mostrará um endereço parecido com:
+   http://localhost:5173
+
+10. Segure CTRL e clique nesse endereço.
+
+PARA PARAR O SITE
+Clique no terminal e pressione:
+CTRL + C
+
+ONDE ALTERAR O SITE
+
+Textos, pacotes e links:
+app/page.tsx
+
+Cores, tamanhos e aparência:
+app/globals.css
+
+Título e descrição que aparecem no navegador:
+app/layout.tsx
+
+NÚMERO DO WHATSAPP
+O número está no começo do arquivo app/page.tsx:
+const whatsappNumber = "5562982365624";
+
+O 55 é o código do Brasil.
+
+OBSERVAÇÃO
+Os arquivos node_modules não estão no ZIP porque são muito pesados.
+O comando "npm install" baixa esses arquivos automaticamente.
